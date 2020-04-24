@@ -26,10 +26,14 @@ function App() {
           <Route
             exact
             path="/revolution"
-            component={() => <div>Revolution</div>}
+            component={() => <div>The Revolution</div>}
           />
-          <Route exact path="/about" component={() => <div>About</div>} />
-          <Route exact path="/contact" component={() => <div>Contact</div>} />
+          <Route exact path="/about" component={() => <div>About Us</div>} />
+          <Route
+            exact
+            path="/contact"
+            component={() => <div>Contact Us</div>}
+          />
           <Route exact path="/estimate" component={() => <div>Estimate</div>} />
         </Switch>
       </BrowserRouter>
